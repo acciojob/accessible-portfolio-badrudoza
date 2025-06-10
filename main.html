@@ -4,9 +4,29 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>My Accessible Portfolio</title>
 </head>
 
 <body>
+	<h1 role="heading">Welcome to my portfolio</h1>
+	<nav role="navigation">
+		<ul role="list">
+			<li role="listitem"><a href="#about">About me</a></li>
+			<li role="listitem"><a href="#projects">Projects</a></li>
+			<li role="listitem"><a href="contact">Contact</a></li>
+		</ul>
+	</nav>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNXNSjAzG7N3H_huwUv7JGXydjHLFd-jnmIw&s" alt="my profile image" role="image">
+	<p id="about">
+		 Hi, I'm a web developer passionate about building accessible and responsive web applications.
+	</p>
+	<section id="projects">
+		<h2 role="heading">Top Projects</h2>
+		<ul role="list">
+			<li role="listitem">Todo app</li>
+			<li role="listitem">Face recognition attendance system</li>
+		</ul>
+	</section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
